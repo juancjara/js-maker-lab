@@ -1,0 +1,7 @@
+browserify para unir todo en un archivo
+watchify escucha cambios y ejecuta browserify
+
+primero instalar nodejs
+
+npm install -g browserify
+npm install -g watchify
