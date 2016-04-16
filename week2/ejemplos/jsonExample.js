@@ -1,8 +1,14 @@
 // un json es un objeto en js como casi todo
+//javascript object notation
 
 //ejemplos
 
-var a = {foo: 5};
+var a = {
+  foo: 5
+};
+
+// var attr = 'foo';
+// console.log('here', a[attr]);
 
 //para acceder a los propiedad podemos hacerlo de 2 formas
 
@@ -44,6 +50,7 @@ var users = [
   }
 ];
 
+console.log(users);
 console.log(users[0].address.country); // Peru
 console.log(users[1].basicData.name); // irina
 
@@ -53,4 +60,8 @@ for (var i = 0, len = users.length; i < len ; i++) {
   console.log(users[i].basicData.name);
 }
 
+// console.log('/');
+// users.forEach(function (user) {
+//   console.log(user.basicData.name);
+// });
 

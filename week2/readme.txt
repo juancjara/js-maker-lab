@@ -1,3 +1,7 @@
+correr achivo en node
+
+node index.js
+
 EJEMPLOS:
 
 en la carpeta ejemplos hay ejemplos de uso de json, reduce, map, foreach, filter
