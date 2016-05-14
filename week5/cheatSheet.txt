@@ -1,0 +1,27 @@
+# iniciar un repo node
+  npm init
+  "o"
+  npm init -y //todo en default
+
+# instalar server (one line server)
+npm install -g http-server
+
+
+# instalar browserify
+  npm install -g browserify
+
+# usar browserify
+
+browserify -e src/index.js -o bundle.js
+
+# instalar watchify
+npm install -g watchify
+
+# usar watchify
+watchify src/index.js -o bundle.js
+
+# instalar webpack, localmente sin -g
+npm install --save webpack 
+
+# lodash
+npm install --save lodash
