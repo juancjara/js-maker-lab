@@ -1,0 +1,27 @@
+<body>
+  <button id="btn" class="clase">boton</button>
+  <button class="clase">asdf</button>
+  <div id="uno">+</div>
+
+    <script>
+     //id es poner #
+     //class es poner .
+     //tagname -> button
+     //querySelector obtiene un solo elemento
+     //querySelectorAll obtiene un array de elements
+     /*      var btn = document.querySelector('#btn'); */
+     /*      var btn = document.querySelector('.clase'); */
+
+
+     /*      var botones = document.querySelectorAll('.clase');
+        console.log(botones); */
+     var elemDiv = document.querySelector('#uno');
+     var btn = document.querySelector('#btn');
+     var clickCounter = 0;
+     btn.addEventListener('click', function () {
+       /*        console.log(clickCounter); */
+       elemDiv.innerText = clickCounter;
+       clickCounter++;
+     });
+    </script>
+</body>
