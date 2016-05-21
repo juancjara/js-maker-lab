@@ -6,6 +6,9 @@
 # instalar server (one line server)
 npm install -g http-server
 
+# usar http-server, en folder actual
+http-server .
+
 
 # instalar browserify
   npm install -g browserify
@@ -18,7 +21,7 @@ browserify -e src/index.js -o bundle.js
 npm install -g watchify
 
 # usar watchify
-watchify src/index.js -o bundle.js
+watchify src/index.js -o bundle.js -v
 
 # instalar webpack, localmente sin -g
 npm install --save webpack 
